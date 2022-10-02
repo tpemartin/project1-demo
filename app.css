@@ -1,0 +1,25 @@
+.ebookcard{display:flex;flex-direction:column;align-items:center;padding:50px 10px 20px;gap:30px;box-sizing:border-box;position:relative;width:172.5px;height:302px;background:#FFFFFF;border:1px solid rgba(0, 0, 0, 0.5);box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);border-radius:20px;}
+.ebookcard-icon{display:flex;flex-direction:column;align-items:center;padding:0px;gap:10px;flex:none;order:0;flex-grow:0;margin:px;width:132px;height:159px;}
+.ebookcard-icon-icon{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:0px;gap:10px;flex:none;order:0;flex-grow:0;margin:px;width:132px;height:121px;background:rgba(39, 174, 96, 0.5);border-radius:100px;}
+.ebookcard-icon-iconName{flex:none;order:1;flex-grow:0;margin:px;width:120px;height:28px;font-family:'Roboto';font-style:normal;font-weight:400;font-size:24px;line-height:28px;color:#000000;}
+.ebookcard-pill{display:flex;flex-direction:row;align-items:flex-start;padding:0px;flex:none;order:1;align-self:stretch;flex-grow:0;margin:px;height:43px;}
+.ebookcard-pill-availability{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:7px 10px;gap:8px;flex:none;order:0;align-self:stretch;flex-grow:1;margin:px;box-sizing:border-box;width:76.25px;border:2px solid #27AE60;border-radius:100px 0px 0px 100px;}
+.ebookcard-pill-availability-icon{flex:none;order:0;flex-grow:0;margin:px;width:20px;height:20px;}
+.ebookcard-pill-availability-number{flex:none;order:1;flex-grow:0;margin:px;width:34px;height:19px;font-family:'Roboto';font-style:normal;font-weight:400;font-size:16px;line-height:19px;color:#000000;}
+.ebookcard-pill-action{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:10px;gap:34px;flex:none;order:1;align-self:stretch;flex-grow:1;margin:px;width:76.25px;background:#27AE60;border-radius:0px 100px 100px 0px;}
+.ebookcard-pill-action-type{flex:none;order:0;flex-grow:0;width:32px;height:19px;font-family:'Roboto';font-style:normal;font-weight:400;font-size:16px;line-height:19px;color:#FFFFFF;}
+
+.lectureCard{display:flex;flex-direction:row;justify-content:flex-end;align-items:flex-end;padding:0px;position:relative;width:461px;height:206px;background:rgba(111, 207, 151, 0.4);box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);border-radius:20px;}
+.lectureCard-info{display:flex;flex-direction:row;align-items:center;padding:0px;flex:none;order:0;align-self:stretch;flex-grow:1;margin:px;width:407px;}
+.lectureCard-info-word{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:30px 0px 30px 20px;gap:5px;flex:none;order:0;align-self:stretch;flex-grow:1;width:407px;}
+.lectureCard-info-word-topic{flex:none;order:0;align-self:stretch;flex-grow:0;margin:px;height:69px;font-family:'Roboto';font-style:normal;font-weight:400;font-size:20px;line-height:23px;color:#000000;}
+.lectureCard-info-word-lecturer{flex:none;order:1;flex-grow:0;margin:px;width:342px;height:23px;font-family:'Roboto';font-style:normal;font-weight:400;font-size:20px;line-height:23px;color:#828282;}
+.lectureCard-icon{flex:none;order:1;flex-grow:0;margin:px;width:54px;height:114px;}
+
+.classMap_footer{display:flex;flex-direction:row;align-items:center;padding:0px;position:relative;width:299px;height:52px;}
+.classMap_footer-word{flex:none;order:0;flex-grow:1;margin:px;width:244px;height:31px;font-family:'Roboto';font-style:normal;font-weight:400;font-size:16px;line-height:19px;display:flex;align-items:center;color:#000000;}
+.classMap_footer-icon{flex:none;order:1;flex-grow:0;margin:px;width:55px;height:55px;}
+
+.calendar{display:flex;flex-direction:column;align-items:flex-start;padding:0px;position:relative;width:100px;height:136px;border-radius:20px;}
+.calendar-date{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:10px 0px 5px;gap:10px;flex:none;order:0;align-self:stretch;flex-grow:1;box-sizing:border-box;height:136px;background:#FFFFFF;border:8px solid #219653;border-radius:20px;}
+.calendar-date-number{flex:none;order:0;flex-grow:0;width:78px;height:59px;font-family:'Roboto';font-style:normal;font-weight:400;font-size:50px;line-height:59px;color:#219653;}
