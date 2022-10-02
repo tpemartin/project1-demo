@@ -2,7 +2,7 @@
 
 $(function(){
     $("#app-title").text("經濟學系器材借閱系統")
-    $("#myapp").append(card()) 
+    $("#myapp").append(Ebookcard()) 
 
 })
 
@@ -17,4 +17,21 @@ function card(){
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>`
+}
+function Ebookcard(){
+  return `<div class="ebookcard">
+  <div class="ebookcard-icon">
+    <div class="ebookcard-icon-icon"></div>
+    <div class="ebookcard-icon-iconName"></div>
+  </div>
+  <div class="ebookcard-pill">
+    <div class="ebookcard-pill-availability">
+      <div class="ebookcard-pill-availability-icon"></div>
+      <div class="ebookcard-pill-availability-number"></div>
+    </div>
+    <div class="ebookcard-pill-action">
+      <div class="ebookcard-pill-action-type"></div>
+    </div>
+  </div>
+</div>`
 }
