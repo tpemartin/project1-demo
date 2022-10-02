@@ -2,7 +2,7 @@
 
 $(function(){
     $("#app-title").text("經濟學系器材借閱系統")
-    $("#myapp").append(Ebookcard()) 
+    $("#myapp").append(Ebookcard({remain: 5})) 
 
 })
 
@@ -18,20 +18,27 @@ function card(){
     </div>
   </div>`
 }
-function Ebookcard(){
+function Ebookcard(props){
+  let actionType = props.remain===0?"需預約":"借用"
   return `<div class="ebookcard">
   <div class="ebookcard-icon">
-    <div class="ebookcard-icon-icon"></div>
+    <div class="ebookcard-icon-icon">${IconKindle()}</div>
     <div class="ebookcard-icon-iconName"></div>
   </div>
   <div class="ebookcard-pill">
     <div class="ebookcard-pill-availability">
-      <div class="ebookcard-pill-availability-icon"></div>
-      <div class="ebookcard-pill-availability-number"></div>
+      <div class="ebookcard-pill-availability-icon">${IconCheck()}</div>
+      <div class="ebookcard-pill-availability-number">${props.remain+'/15'}</div>
     </div>
     <div class="ebookcard-pill-action">
-      <div class="ebookcard-pill-action-type"></div>
+      <div class="ebookcard-pill-action-type">${actionType}</div>
     </div>
   </div>
 </div>`
+}
+function IconKindle(){
+  return `<img src="./icon-kindle.png"/>`
+}
+function IconCheck(){
+  return `<img src="./icon-check.png"/>`
 }
